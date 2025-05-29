@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { v, Btnsave } from "../../../index";
+
 export function SidebarCard() {
   return (
     <Container>
@@ -15,6 +16,7 @@ export function SidebarCard() {
     </Container>
   );
 }
+
 const Container = styled.div`
   width: 100%;
   padding: 1rem;

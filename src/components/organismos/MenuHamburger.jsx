@@ -11,13 +11,10 @@ export function MenuHamburger() {
       <NavBar>
         <section>
           <HamburgerMenu onClick={() => setClick(!click)}>
-            <label
-              className={click ? "toggle active" : "toggle"}
-              for="checkbox"
-            >
-              <div class="bars" id="bar1"></div>
-              <div class="bars" id="bar2"></div>
-              <div class="bars" id="bar3"></div>
+            <label className={click ? "toggle active" : "toggle"}>
+              <div className="bars" id="bar1"></div>
+              <div className="bars" id="bar2"></div>
+              <div className="bars" id="bar3"></div>
             </label>
           </HamburgerMenu>
         </section>
